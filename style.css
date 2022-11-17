@@ -62,14 +62,20 @@
     font-weight: lighter;
     font-size: large;
     letter-spacing: .4rem;
+    margin-left: -20px;
+    margin-top: 20px;
 
 }
 .font-full-name{
     font-family: 'poppins', sans-serif;
     color: #fff;
+    margin-left: -20px;
+    margin-top: 20px;
 }
 .home-container p{
     color: rgba(0, 0, 0, 0.737);
+    margin-left: -20px;
+    margin-top: 20px;
 }
 .home-container button{
     font-size: small;
@@ -78,7 +84,9 @@
     border-radius: 21px;
     border: none;
     background-color: rgb(134, 68, 201);
-    color: #fff;   
+    color: #fff;
+    margin-left: -20px;  
+    margin-top: 20px; 
 }
 .home-container button:hover{
     background-color: rgb(105, 45, 165);
@@ -86,8 +94,8 @@
 .home-container img{
     display: block;
     width: 250px;
-    
-    margin-left: 140px;
+    margin-top: 40px;
+    margin-left: 60px;
     border-radius: 50%;
     border: 1px solid #fff;
 }
@@ -131,7 +139,7 @@
     width: 100%;
     background-color: rgba(213, 176, 252, 0.841);
     padding: 60px 0px;
-    padding-left: 10%;
+    
     line-height: 30px;
     letter-spacing: .08rem;
 
@@ -143,6 +151,7 @@
     border: none;
     background-color: rgba(176, 134, 219, 0.953);
     transition: 1s ease;
+    
 }
 .skills-container .card:hover{
     background-color: rgba(86, 32, 116, 0.953);
@@ -163,11 +172,12 @@
 }
 
 /*==============foooter================*/
-.footer-container{
+.footer-container-div{
     width: 100%;
     align-items: center;
     font-size: small;
-    padding: 6px 42%;
     background-color: rgba(222, 205, 226, 0.851);
-    
+    text-decoration: none;
+    color: rgb(10, 10, 10);
 }
+/*================end=================*/
